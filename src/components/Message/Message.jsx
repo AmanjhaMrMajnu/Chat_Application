@@ -10,7 +10,7 @@ const Message = ({message:{text,user},name})=>{
 
   const renderText = () => {
     try {
-      return ReactEmoji.emojify(text);
+      return ReactEmoji.emojify(text, { attributes: { style: { width: '24px', height: '24px', display: 'inline-block', verticalAlign: 'middle', margin: '0 2px' } } });
     } catch (e) {
       console.warn('Error parsing emoji:', e);
       return text;
