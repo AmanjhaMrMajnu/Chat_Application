@@ -148,7 +148,7 @@ const Chat = () => {
         {/* Sidebar (User List) */}
         <div className="hidden md:flex flex-col w-80 bg-slate-900 border-r border-gray-800">
           <div className="p-6 border-b border-slate-800 flex items-center justify-between">
-            <h1 className="text-xl font-bold text-white tracking-wide">ChatGram</h1>
+            <h1 className="text-xl font-bold text-white tracking-wide">ChatRoom</h1>
             <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
           </div>
           <UserContainer users={users}/>
